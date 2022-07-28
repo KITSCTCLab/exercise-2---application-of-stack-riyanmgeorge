@@ -19,7 +19,7 @@ class Evaluate:
     #Check whether the stack is empty.
     #Returns:
     # True if it is empty, else returns False
-      return len(self.stac) == 0
+      return len(self.stack) == 0
 
 
   def pop(self):
@@ -78,7 +78,7 @@ class Evaluate:
         self.pop()
         self.pop()
         self.push(result)
-    return self.pop()
+    return self.pop(
     
 
 
